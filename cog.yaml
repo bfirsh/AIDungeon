@@ -1,0 +1,13 @@
+build:
+  gpu: true
+  cuda: "10"
+  python_version: "3.7"
+  python_requirements: "requirements.txt"
+  # python_packages: 
+  #  - "numpy==1.19.5"
+  #  - "profanityfilter==2.0.6"
+  #  - "PyYAML==6.0"
+  #  - "regex==2022.8.17"
+  #  - "tracery==0.1.1"
+  #  - "tensorflow==1.15.2"
+predict: predict.py:Predictor

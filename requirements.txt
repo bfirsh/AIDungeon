@@ -1,6 +1,6 @@
 google-cloud-storage
 gsutil
-numpy
+numpy==1.19.5
 profanityfilter
 pyyaml
 regex
